@@ -8,7 +8,7 @@ trait Scraping {
      * data from the website
      * @var string
      */
-    private string $keyword = 'window.top500';
+    private $keyword = 'window.top500';
 
     /**
      * Method performs extraction from html. Scraps data and returns as json

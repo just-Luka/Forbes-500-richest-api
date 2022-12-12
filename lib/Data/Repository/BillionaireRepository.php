@@ -12,7 +12,7 @@ class BillionaireRepository {
      * Cache name
      * @var string
      */
-    private string $cache = AppConfig::DEFAULT_CACHE_PATH.'billionaire.json';
+    private $cache = AppConfig::DEFAULT_CACHE_PATH.'billionaire.json';
 
     /**
      * Method manages logic and defines whether data should be received from network or cache

@@ -1,7 +1,7 @@
 {
     "name": "m3duza/billionaires",
-    "description": "Following package gives you access on the list of billionaires",
-    "type": "n",
+    "description": "Package gives you access on top 500 richest people",
+    "type": "lib",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -16,10 +16,12 @@
     "authors": [
         {
             "name": "Mr. Luka",
-            "email": "info.tsiklauri@gmail.com"
+            "email": "info.tsiklauri@gmail.com",
+            "homepage": "https://github.com/just-Luka"
         }
     ],
     "require": {
+        "php": "^7.3 || ^8.0",
         "guzzlehttp/guzzle": "^7.5"
     }
 }
