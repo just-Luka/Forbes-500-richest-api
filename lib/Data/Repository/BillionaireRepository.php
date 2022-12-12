@@ -3,7 +3,6 @@
 namespace Lib\Data\Repository;
 
 use Lib\Configs\AppConfig;
-use Lib\Data\Billionaires\IBillionaire;
 use Lib\Data\Billionaires\LocalBillionaire;
 use Lib\Data\Billionaires\RemoteBillionaire;
 
