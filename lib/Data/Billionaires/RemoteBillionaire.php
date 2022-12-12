@@ -9,14 +9,14 @@ use Lib\Domain\Scraping;
 class RemoteBillionaire implements IBillionaire {
     use Scraping;
     
-	/**
+    /**
      * Returns Billionaires list from network
      * @return string
      */
-	public function data() 
+    public function data() 
     {
         return $this->extract($this->fetchHTML());
-	}
+    }
 
     /**
      * Makes GET requests on server
