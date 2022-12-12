@@ -1,0 +1,25 @@
+{
+    "name": "m3duza/billionaires",
+    "description": "Following package gives you access on the list of billionaires",
+    "type": "n",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lib\\": "lib/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mr. Luka",
+            "email": "info.tsiklauri@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
