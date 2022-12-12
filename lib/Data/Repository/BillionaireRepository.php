@@ -25,6 +25,9 @@ class BillionaireRepository {
             return (new LocalBillionaire())->data();
         }
 
+        if (!file_exists(AppConfig::DEFAULT_CACHE_PATH)) {
+            mkdir(AppConfig::DEFAULT_CACHE_PATH);
+        }
         $data = (new RemoteBillionaire())->data();
         file_put_contents($this->cache, $data);
         
