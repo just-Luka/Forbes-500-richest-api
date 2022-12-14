@@ -4,7 +4,7 @@ Package scraps data from Bloomberg and provides you list of real-time billionair
 
 ## Installation
 
->$ composer require m3duza/billionaires
+>$ composer require m3duza/billionaires @dev
 
 ## Requirements
   - php ^7.3
